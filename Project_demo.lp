@@ -1,7 +1,7 @@
 
 						 	
 %---------------------DISEASE/SYMPTOM RULES------------------------
-disesase(diaper_rash,Y):- 
+disesase(diaper_rash):- 
 				_symptom(redness),
 				_symptom(scaling),
 				_symptom(red_bumps),
